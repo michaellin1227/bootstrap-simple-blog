@@ -1,0 +1,46 @@
+@import _mixin
+
+html,body
+    height: 100%
+
+.nav-color
+    background-color: #1a2837
+
+.line-height
+    line-height: 75px
+
+@include hnpx(30)
+@include hnpx(50)
+@include hnpx(75)
+@include hnpx(100)
+@include hnpx(300)
+
+@include wnpx(40)
+@include wnpx(50)
+@include wnpx(400)
+@include wnpx(600)
+
+.main-color
+    @include callout-variant(#11171c)
+
+.bg-color2
+    @include callout-variant(#15202A)
+
+.bg-color3
+    @include callout-variant(#6C6C6C)
+
+.bg-color4
+    @include callout-variant(#003060)
+
+.bg-color5
+    @include callout-variant(#BEBEBE)
+
+.head-color
+    @include callout-variant(#5d7a94)
+
+input
+    color: white
+    background-color: #1a2837
+
+a:hover
+    border-bottom: 2px solid white

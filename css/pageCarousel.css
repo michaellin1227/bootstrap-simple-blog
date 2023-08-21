@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+}
+
+.h20px {
+  height: 20px;
+}
+
+.h100px {
+  height: 100px;
+}
+
+.h250px {
+  height: 250px;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.h375px {
+  height: 375px;
+}
+
+.h650px {
+  height: 650px;
+}
+
+.h900px {
+  height: 900px;
+}
+
+.w50px {
+  width: 50px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+.w400px {
+  width: 400px;
+}
+
+.text-style1 {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: justify;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 5px black;
+}
+
+.pic-hidden {
+  overflow: hidden;
+}
+
+.pic-scale:hover {
+  transform: scale(1.2);
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=pageCarousel.css.map */

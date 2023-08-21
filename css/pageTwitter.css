@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+}
+
+.nav-color {
+  background-color: #1a2837;
+}
+
+.line-height {
+  line-height: 75px;
+}
+
+.h30px {
+  height: 30px;
+}
+
+.h50px {
+  height: 50px;
+}
+
+.h75px {
+  height: 75px;
+}
+
+.h100px {
+  height: 100px;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.w40px {
+  width: 40px;
+}
+
+.w50px {
+  width: 50px;
+}
+
+.w400px {
+  width: 400px;
+}
+
+.w600px {
+  width: 600px;
+}
+
+.main-color {
+  --callout-bg: #11171c;
+  background-color: var(--callout-bg);
+}
+
+.bg-color2 {
+  --callout-bg: #15202A;
+  background-color: var(--callout-bg);
+}
+
+.bg-color3 {
+  --callout-bg: #6C6C6C;
+  background-color: var(--callout-bg);
+}
+
+.bg-color4 {
+  --callout-bg: #003060;
+  background-color: var(--callout-bg);
+}
+
+.bg-color5 {
+  --callout-bg: #BEBEBE;
+  background-color: var(--callout-bg);
+}
+
+.head-color {
+  --callout-bg: #5d7a94;
+  background-color: var(--callout-bg);
+}
+
+input {
+  color: white;
+  background-color: #1a2837;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}/*# sourceMappingURL=pageTwitter.css.map */

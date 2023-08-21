@@ -1,0 +1,10 @@
+@mixin hnpx($n)
+    .h#{$n}px
+        height: #{$n}px
+@mixin wnpx($n)
+    .w#{$n}px
+        width: #{$n}px
+
+@mixin callout-variant($color)
+    --callout-bg: #{$color}
+    background-color: var(--callout-bg)

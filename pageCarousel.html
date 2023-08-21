@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/pageCarousel.css">
+    <title>hw-3 pageCarousel</title>
+
+</head>
+
+<body>
+    <!-- 輪播牆 -->
+    <header class="h650px">
+        <div id="carouselExampleCaptions" class="carousel slide w-100 h-100 bg-dark" data-bs-ride="carousel">
+            <!-- 下方指標 -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active h20px mx-2" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="mx-2"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="mx-2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="mx-2"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="mx-2"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" class="mx-2"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" class="mx-2"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" class="mx-2"
+                    aria-label="Slide 8"></button>
+            </div>
+
+            <!-- 圖片 -->
+            <div class="carousel-inner h-100">
+                <!-- PIC1 -->
+                <div class="carousel-item active h-100 position-relative" data-bs-interval="2000">
+                    <img src="./images/1-heather-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://tw.news.yahoo.com/%E9%A6%AC%E5%85%8B%E5%AE%8F%E8%A8%AA%E8%8D%B7%E8%98%AD%E9%81%AD%E6%8A%97%E8%AD%B0-%E7%BE%A4%E7%9C%BE%E6%89%B9%E5%BC%B7%E8%A1%8C%E9%80%9A%E9%81%8E%E5%B9%B4%E6%94%B9-053500878.html"
+                                class="text-decoration-none fw-bold text-light text-shadow">馬克宏政府的年金改革法案引爆國內的抗議聲浪</a>
+                        </h5>
+                    </div>
+                </div>
+                <!-- PIC2 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/2-victor-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://tw.news.yahoo.com/%E5%81%A5%E8%BA%AB%E6%B8%9B%E9%87%8D%E6%9C%89%E6%B0%A7%E9%81%8B%E5%8B%95%E5%BC%B7%E5%BA%A6%E5%A4%AA%E9%AB%98%EF%BC%9F15%E5%88%86%E9%90%98%E4%BD%8E%E5%BC%B7%E5%BA%A6%E9%81%8B%E5%8B%95%E6%B8%9B%E8%82%A5%E6%96%B0%E6%89%8B%E4%B9%9F%E8%83%BD%E5%81%9A-011612658.html"
+                                class="text-decoration-none fw-bold text-light text-shadow">健身減重有氧運動強度太高?15分鐘低強度運動減肥新手也能做</a>
+                        </h5>
+                    </div>
+                </div>
+                <!-- PIC3 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/3-sven-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://tw.news.yahoo.com/%E8%AA%BF%E6%9F%A5-%E5%83%85%E4%BA%94%E5%88%86%E4%B9%8B%E4%BA%8C%E7%BE%8E%E5%9C%8B%E4%BA%BA%E8%80%83%E6%85%AE%E4%B8%8B-%E8%BC%9B%E8%BB%8A%E6%8F%9B%E9%9B%BB%E5%8B%95%E8%BB%8A-132343545.html"
+                                class="text-decoration-none fw-bold text-light text-shadow">調查：僅五分之二美國人考慮下一輛車換電動車</a>
+                        </h5>
+                    </div>
+                </div>
+                <!-- PIC4 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/4-david-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a href="https://e-info.org.tw/node/232550"
+                                class="text-decoration-none fw-bold text-light text-shadow">無象牙大象變多了?研究發現盜獵影響非洲象群演化</a>
+                        </h5>
+                    </div>
+                </div>
+                <!-- PIC5 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/5-joshua-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://www.cool-style.com.tw/wd2/archives/886755-%e6%84%9b%e6%8e%a2%e9%9a%aa%e7%9a%84%e5%bf%83%e8%97%8f%e4%b8%8d%e4%bd%8f%ef%bc%81%e5%be%9e%e7%a9%bf%e6%90%ad%e4%b8%80%e7%a7%92%e7%9c%8b%e5%87%ba%e4%bd%a0%e7%9a%84%e5%86%92%e9%9a%aa%e5%ae%b6%e5%80%8b"
+                                class="text-decoration-none fw-bold text-light text-shadow">從穿搭一秒看出你的冒險家個性</a></h5>
+                    </div>
+                </div>
+                <!-- PIC6 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/6-ting-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://insidr.co/zh-hant/%E6%B2%92%E5%90%83%E5%88%B0%E4%B8%80%E5%AE%9A%E5%BE%8C%E6%82%94-%E6%B3%95%E5%9C%8B%E5%BF%85%E5%90%8315%E9%81%93%E7%B6%93%E5%85%B8%E7%BE%8E%E9%A3%9F/"
+                                class="text-decoration-none fw-bold text-light text-shadow">沒吃到一定後悔!必嚐經典法國美食</a></h5>
+                    </div>
+                </div>
+                <!-- PIC7 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/7-filip-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://www.businessweekly.com.tw/international/blog/3012019"
+                                class="text-decoration-none fw-bold text-light text-shadow">職缺數近歷史高點，卻感覺每個人都在失業...迪士尼裁7千人背後的「大裁員錯覺」</a>
+                        </h5>
+                    </div>
+                </div>
+                <!-- PIC8 -->
+                <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                    <img src="./images/8-pedro-unsplash.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-flex w400px my-4">
+                        <h5 class="fs-1 text-style1"><a
+                                href="https://www.bnext.com.tw/article/65981/lonely-planet-2022-taipei"
+                                class="text-decoration-none fw-bold text-light text-shadow">孤獨星球公布2022年10大旅遊城市</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 切換圖片 -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+
+    <!-- 卡片區 -->
+    <section class="h900px">
+        <div class="container h-100 py-5">
+            <div class="row row-cols-4 g-4 h-100">
+                <!-- CARD1 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/1-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">籃球</button>
+                                <button class="btn btn-secondary" type="button">漫畫</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a href="https://udn.com/news/story/120912/6957355"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">他是我心目中的NO1!《灌籃高手》20大角色
+                                    網友討論度最高排行榜</a></h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD2 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/2-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">鋼琴</button>
+                                <button class="btn btn-secondary" type="button">音樂</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://www.chinatimes.com/realtimenews/20230412004830-260405?chdtv"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">鋼琴女王齊柏絲坦愛上拼圖
+                                    和彈琴一樣專注</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD3 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/3-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">鞋</button>
+                                <button class="btn btn-secondary" type="button">潮流</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://www.aquafeb.com/pages/converse-all-star-%E2%80%9970"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">你一定得認識的CONVERSE
+                                    ALL STAR '70</a></h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD4 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/4-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">法鬥</button>
+                                <button class="btn btn-secondary" type="button">寵物</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://www.kamadelivery.com/blog/posts/%E6%B3%95%E5%9C%8B%E9%AC%A5%E7%89%9B%E7%8A%AC/"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">法國鬥牛犬【養法鬥6大要點新手秘笈】</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD5 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/5-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">旅遊</button>
+                                <button class="btn btn-secondary" type="button">歐洲</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://www.bring-you.info/zh-tw/europe-attractions"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">此生必去仙境，第一次來歐洲推薦必去景點，歐洲最值得去國家清單</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD6 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/6-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">股市</button>
+                                <button class="btn btn-secondary" type="button">投資</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://web.cheers.com.tw/issue/2021/financial_skills/article/01.html"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">專訪Mr.Market市場先生:人生最值得的投資，是環境！</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD7 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/7-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">電影</button>
+                                <button class="btn btn-secondary" type="button">好萊塢</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://kknews.cc/zh-tw/entertainment/amgn4vv.html"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">《美國電影美國文化》：揭秘好萊塢電影工業的前世今生
+
+                                    原文網址：https://kknews.cc/entertainment/amgn4vv.html</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD8 -->
+                <div class="col">
+                    <div class="card h375px pic-hidden border border-0">
+                        <div class="pic-hidden rounded-2">
+                            <img src="./images/8-sm-unsplash.jpg" class="card-img-top object-fit-cover pic-scale"
+                                alt="...">
+                        </div>
+
+                        <div>
+                            <div class="card-1 d-grid gap-2 d-md-block my-2">
+                                <button class="btn btn-secondary" type="button">3C</button>
+                                <button class="btn btn-secondary" type="button">蘋果</button>
+                            </div>
+                            <h5 class="card-2 text-style1 fw-bold"><a
+                                    href="https://ccc.technews.tw/2023/04/12/airpods-firmware-updates/"
+                                    class="text-black link-dark link-underline-opacity-0 link-underline-opacity-75-hover">
+                                    手邊沒 iPhone、iPad、Mac 替 AirPods 升級韌體怎麼辦？</a>
+                            </h5>
+                            <div class="card-3 my-2">
+                                <small class="text-muted">2023-04-14</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- 左側選單 -->
+    <aside class="menu bg-white position-fixed top-50 start-0 translate-middle-y ms-3 rounded-2">
+        <div class="icons py-3 px-2 d-flex justify-content-center align-items-center"><i
+                class="fa-solid fa-house-chimney fs-2 text-dark"></i></div>
+        <div class="icons py-3 px-2 d-flex justify-content-center align-items-center"><i
+                class="fa-solid fa-magnifying-glass fs-2 text-dark"></i></div>
+        <div class="icons py-3 px-2 d-flex justify-content-center align-items-center"><i
+                class="fa-solid fa-list fs-2 text-dark"></i></div>
+        <div class="icons py-3 px-2 d-flex justify-content-center align-items-center"><i
+                class="fa-regular fa-compass fs-2 text-dark"></i></div>
+        <div class="icons py-3 px-2 d-flex justify-content-center align-items-center"><i
+                class="fa-solid fa-circle-dollar-to-slot fs-2 text-dark"></i></div>
+    </aside>
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

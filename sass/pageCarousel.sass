@@ -1,0 +1,37 @@
+@import _mixin
+
+html, body
+    height: 100%
+
+@include hnpx(20)
+@include hnpx(100)
+@include hnpx(250)
+@include hnpx(300)
+@include hnpx(375)
+@include hnpx(650)
+@include hnpx(900)
+
+@include wnpx(50)
+@include wnpx(100)
+@include wnpx(400)
+
+.text-style1
+    overflow: hidden
+    -webkit-line-clamp: 2
+    text-overflow: ellipsis
+    display: -webkit-box
+    -webkit-box-orient: vertical
+    text-align: justify
+
+.text-shadow
+    text-shadow: 1px 1px 5px black
+
+.pic-hidden
+    overflow: hidden
+
+.pic-scale
+    &:hover
+        transform: scale(1.2)
+.link-hover
+    &:hover
+        text-decoration: underline
